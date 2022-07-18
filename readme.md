@@ -2,7 +2,7 @@
 
 Zadaniem jest odwozorowanie mockupu, który znajduje się w folderze design. (Potrzebne obrazki znajdują się w folderze img.)
 Kod zadania powinien znajdować się w repozytorium na Waszym koncie githubowym pod nazwą zadanie_html_css_dolittle.
-Jeżeli uważacie, że zadanie jest gotowe to wysyłacie maila pod adres (mbudnik@deloittece.com) o tytule Zadanie HTML+CSS - 06.07, a w treści wklejacie link do Waszego repozytorium.
+Jeżeli uważacie, że zadanie jest gotowe to wysyłacie maila pod adres (mbudnik@deloittece.com) o tytule Zadanie HTML+CSS - 18.07, a w treści wklejacie link do Waszego repozytorium.
 
 
 **Obowiązkowo** należy:
