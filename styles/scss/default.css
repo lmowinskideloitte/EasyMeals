@@ -1,16 +1,32 @@
 @charset "UTF-8";
 html {
+  font-size: 10px;
   font-family: "Open Sans", sans-serif;
 }
 
 body {
-  background: rgb(200, 142, 71);
-  background: linear-gradient(180deg, rgb(200, 142, 71) 0%, rgb(237, 233, 134) 30%, rgb(255, 250, 240) 72%);
+  background: rgb(255, 185, 143);
+  background: linear-gradient(180deg, rgb(255, 185, 143) 0%, rgb(237, 211, 134) 30%, rgb(255, 250, 240) 72%);
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+h1.capitalised {
+  text-transform: capitalize;
+}
+
+.default {
+  color: darkslategray;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 1%;
+  width: 100%;
 }
 nav ul {
   display: flex;
@@ -24,8 +40,39 @@ nav a {
   color: floralwhite;
   text-decoration: none;
 }
+nav a:hover {
+  font-weight: bold;
+}
 nav .a--underscore {
   text-decoration: underline;
+}
+
+main .container {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-around;
+}
+main .registration {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+main input {
+  border-radius: 5px;
+  box-shadow: 0 2px 2px 1px #eeeeee;
+  border-color: grey;
+}
+main input[type=submit] {
+  background-color: rgb(255, 185, 143);
+  color: floralwhite;
+  border-color: rgb(255, 185, 143);
+}
+main input[type=submit]:hover {
+  background-color: #ffaf7b;
+}
+main .solid-background {
+  padding: 3rem;
+  background-color: rgb(255, 185, 143);
 }
 
 footer {
@@ -33,9 +80,17 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 5px 3rem 5px 3rem;
+  color: dimgrey;
 }
 footer #footer__copyrights:before {
   content: "©";
+}
+footer #icons {
+  font-size: 2rem;
+}
+footer .footer {
+  flex-shrink: 0;
 }
 
 /*# sourceMappingURL=default.css.map */
