@@ -1,0 +1,44 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: rgb(200, 142, 71);
+  background: linear-gradient(180deg, rgba(200, 142, 71, 1) 0%, rgba(237, 233, 134, 1) 30%, rgba(255, 250, 240, 1) 72%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    color: floralwhite;
+    text-decoration: none;
+  }
+  .a--underscore {
+    text-decoration: underline;
+  }
+}
+
+footer {
+  background: floralwhite;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  #footer__copyrights:before {
+    content: "\A9";
+  }
+
+}
