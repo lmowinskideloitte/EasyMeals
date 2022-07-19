@@ -14,8 +14,11 @@ body {
   flex-direction: column;
 }
 
-h2.capitalised {
+h1.capitalised, h2.capitalised, p.capitalised {
   text-transform: capitalize;
+}
+h1.bold, h2.bold, p.bold {
+  font-weight: bold;
 }
 
 .default {
@@ -30,11 +33,23 @@ h2.capitalised {
   width: 15rem;
   height: 10rem;
 }
-.box img {
+
+.bordered {
   border-radius: 5px;
   box-shadow: 0 2px 5px 1px lightslategray;
+  padding: 1rem 1rem 1rem 1rem;
   max-width: 100%;
   max-height: 100%;
+}
+
+figure > img {
+  width: 100%;
+  min-height: 100%;
+}
+
+figure > figcaption {
+  display: flex;
+  justify-content: center;
 }
 
 nav {
@@ -67,6 +82,7 @@ main .container {
   display: flex;
   flex: 1 0 auto;
   justify-content: space-around;
+  margin: 3rem 0 3rem 0;
 }
 main .registration {
   display: flex;
