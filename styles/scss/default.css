@@ -1,12 +1,12 @@
 @charset "UTF-8";
 html {
-  font-size: 10px;
+  font-size: 25px;
   font-family: "Open Sans", sans-serif;
 }
 
 body {
-  background: rgb(255, 185, 143);
-  background: linear-gradient(180deg, rgb(255, 185, 143) 0%, rgb(237, 211, 134) 30%, rgb(255, 250, 240) 72%);
+  background: #FBAB7E;
+  background: linear-gradient(180deg, #FBAB7E 0%, rgb(241, 204, 162) 10%, rgb(255, 250, 240) 25%);
   height: 100%;
   margin: 0 auto;
   width: 95%;
@@ -14,7 +14,7 @@ body {
   flex-direction: column;
 }
 
-h1.capitalised {
+h2.capitalised {
   text-transform: capitalize;
 }
 
@@ -27,8 +27,8 @@ h1.capitalised {
 }
 
 .box {
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 10rem;
 }
 .box img {
   border-radius: 5px;
@@ -46,7 +46,7 @@ nav {
 }
 nav ul {
   display: flex;
-  gap: 5px;
+  gap: 10px;
   list-style-type: none;
 }
 nav li {
@@ -79,16 +79,16 @@ main input {
   border-color: grey;
 }
 main input[type=submit] {
-  background-color: rgb(255, 185, 143);
+  background-color: #FBAB7E;
   color: floralwhite;
-  border-color: rgb(255, 185, 143);
+  border-color: #FBAB7E;
 }
 main input[type=submit]:hover {
   background-color: #ffaf7b;
 }
 main .solid-background {
-  padding: 3rem;
-  background-color: rgb(255, 185, 143);
+  padding: 0 3rem 0 3rem;
+  background-color: #FBAB7E;
 }
 main .icon-header {
   display: flex;
@@ -101,7 +101,7 @@ main .icon-header i {
 }
 main .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
